@@ -1,0 +1,132 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin-top: 30px;
+}
+
+th {
+    background-color: #0045c1fc;
+    border: 1px solid #ddd;
+    padding: 18px;
+    text-align: center;
+    color: white;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 18px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+.deletebtn {
+    background-color: #ff0101;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
+.adminheading{
+    text-align: center;
+    font-size: 33px;
+    margin: 30px 0px;
+}
+.deletebtn:hover {
+    background-color: #d30000;
+}
+
+.container {
+    position: relative;
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.logoutbtn {
+    width: 100px;
+    float: right;
+    padding: 10px 15px;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #0045c1fc;
+    color: white;
+    font-size: 15px;
+    border: none;
+    margin-right: 5px;
+}
+
+.logoutbtn:hover {
+    background-color: #d30000;
+}
+
+
+@media only screen and (max-width: 528px) {
+  
+
+   
+    .deletebtn {
+        background-color: #f44336;
+        color: white;
+        border: none;
+        padding: 6px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 2px 0px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+    
+    .deletebtn:hover {
+        background-color: #d32f2f;
+    }
+    td{
+        padding: 10px 3px;
+    }
+
+    .adminheading{
+        margin: 10px 10px;
+        font-size: 20px;
+    }
+
+    
+    .hid{
+        display: none;
+    }
+
+    table {
+font-size: 11px;
+margin-top: 21px;
+    }
+    .deletebtn{
+        font-size: 11px;
+    }
+    .logoutbtn{
+        font-size: 11px;
+    }
+
+}

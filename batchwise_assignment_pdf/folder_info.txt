@@ -1,0 +1,1 @@
+This folder is empty at this moment because when the file uploaded it will store that file in this folder.

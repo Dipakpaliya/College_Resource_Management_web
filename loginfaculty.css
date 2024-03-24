@@ -1,0 +1,121 @@
+#signup_student_form {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3); 
+    z-index: -1;
+}
+
+#signup_student_form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#signup_student_form div {
+    margin-bottom: 25px;
+}
+
+#signup_student_form label {
+    display: block;
+    font-weight: 700;
+}
+
+#signup_student_form input[type="email"],
+#signup_student_form input[type="password"],
+#signup_student_form select {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#signup_student_form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #db9900d9; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#signup_student_form input[type="submit"]:hover {
+    background-color: #0056b3; 
+}
+
+.loginfaculty {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    max-width: 1480px;
+    margin: 0 auto; 
+}
+
+.left {
+    width: 50%;
+    margin-top: 50px;
+    text-align: right;
+}
+
+.right {
+    margin: auto 10px;
+    width: 50%;
+}
+
+.imgloginfaculty {
+    width: 90%;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 8px 8px 10px;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .loginfaculty {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left, .right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .imgloginfaculty {
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    #signup_student_form {
+        margin: 25px auto;
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 391px) {
+    #signup_student_form {
+        width: 290px;
+    }
+}
+
+@media only screen and (max-width: 331px) {
+    #signup_student_form {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    #signup_student_form {
+        width: 210px;
+    }
+}

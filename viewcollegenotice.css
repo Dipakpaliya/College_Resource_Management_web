@@ -1,0 +1,38 @@
+.noticeheading a{
+    text-decoration: none;
+    font-size: 21px;
+    text-align: center;
+}
+.noticeheading a:hover{
+    color: red;
+}
+.noticeheading {
+    display: flex;
+    position: relative;
+    
+    width: 90%;
+    border: 2px solid #eeeeee;
+    padding: 7px 0px;
+    margin-bottom: 10px;
+  
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.724);
+}
+.noticeheading:hover{
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.836);
+    
+}
+.nn{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    max-width: 1480px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.nheading{
+    margin: 25px 0px;
+    text-align: center;
+    font-size: 33px;
+}
+

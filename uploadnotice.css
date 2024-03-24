@@ -1,0 +1,159 @@
+table {
+    width: 95%;
+       border-collapse: collapse;
+       border: 1px solid #ddd;
+       text-align: left;
+   }
+  
+   th {
+       background-color: #0045c1fc;
+       border: 1px solid #ddd;
+       padding: 18px;
+       text-align: center;
+       color: white;
+   }
+ 
+   td {
+    border: 1px solid #ddd;
+    padding: 18px;
+   }
+   
+  
+   tr:nth-child(even) {
+    background-color: #f2f2f2;
+   }
+   
+   
+   td:first-child {
+    font-weight: bold;
+   }
+   
+  .udocument{
+    width: 85%;
+  }
+
+.container{
+    position: relative;
+    max-width: 1480px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px ;
+
+  
+}
+
+table  a{
+    text-decoration:none;
+    font-size: 18px;
+}
+
+.tabled{
+    display: flex;
+    justify-content: center;
+}
+
+.deletebtn{
+
+    background-color: #ff0101; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+
+}
+.deletebtn:hover{
+    background-color: #d30000;
+}
+
+.nheading{
+    margin-top: 15px;
+text-align: center;
+font-size: 33px;
+}
+
+.choosedocument {
+    display: flex;
+    flex-direction: row;
+margin: 41px 0px;
+margin-left: 5%;
+}
+
+.choosedocument input[type="file"] {
+ width: 20%;
+    padding: 7px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.choosedocument input[type="file"]:hover {
+    border-color: #999;
+}
+
+.choosedocument input[type="text"] {
+    width: 60%;
+    padding: 7px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.choosedocument input[type="submit"] {
+    width: 10%;
+    padding: 7px;
+    font-size: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.choosedocument input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+@media only screen and (max-width: 888px){
+
+
+    .choosedocument {
+        display: flex;
+        flex-direction: column;
+    margin: 50px 0px;
+    }
+
+    .choosedocument input[type="file"] {
+        margin-bottom: 10px;
+        width: 97%;
+    }
+
+    .choosedocument input[type="text"]{
+        margin-bottom: 10px;
+        width: 100%;
+        margin-right: 0px;
+    }
+    .choosedocument input[type="submit"]{
+        width: 100%;
+    }
+
+    .nheading{
+        font-size: 25px;
+    }
+}
